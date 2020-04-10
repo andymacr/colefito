@@ -1,0 +1,139 @@
+---
+title: "*Oferta laboral femenina y niveles de violencia en el hogar*  "  
+subtitle: "Protocolo"
+author: "A. Marín"
+date: "27 de mayo de 2019"
+output:
+  beamer_presentation:
+  fonttheme: "structurebold"
+theme: "Madrid"
+colortheme: "beaver"
+---
+## I.- INTRODUCCIÓN AL TEMA DE ESTUDIO 
+
+**1.1 Resumen**
+
+Esta investigación tiene como objetivo analizar el impacto de la participación laboral de la mujer en los niveles de violencia en el hogar en México durante el periodo 2003 a 2016. Adicionalmente, se analizará la relación de la participación laboral de la mujer con el nivel de educación y la toma de decisiones en el hogar. La información que se utilizará será a partir de la Encuesta Nacional Sobre la Dinámica de las Relaciones en el Hogar (ENDIREH). 
+
+## I.- INTRODUCCIÓN AL TEMA DE ESTUDIO 
+
+**1.2 Introducción**
+
+- Hirschman (1958) considera que el aumento del número de integrantes de la familia y la disminución del ingreso per cápita son factores suficientes para generar motivación en la madre a incorporarse al mercado laboral. 
+- La mujer, por construcción social se ha dedicado a las labores reproductivas en el hogar, pero se dio mayor importancia en los años ochenta cuando se incrementó la participación laboral de la mujer en actividades productivas.
+
+## I.- INTRODUCCIÓN AL TEMA DE ESTUDIO
+
+```{r echo=FALSE, fig.height=4, fig.width=8, message=FALSE, warning=FALSE, paged.print=FALSE}
+library(readr)
+datos <- read_csv("tasapar.csv")
+attach(datos)
+plot(datos,type="l", col=4, main="Tasa de participación laboral femenina")
+```
+*Fuente: elaboración propia con datos del banco mundial. Tasa de participación en la fuerza laboral, mujeres (% de la población femenina entre 15-64 años).*
+  
+## I.- INTRODUCCIÓN AL TEMA DE ESTUDIO
+
+- García y Oliveira (1994) mencionan que, en las familias, donde las jefas de hogar son las que aportan más al ingreso familiar, son las que mayor violencia viven.
+
+- De las mujeres con esposo o pareja actual o última el 52.6% ha enfrentado
+agresiones por parte de la pareja a lo largo de su relación. (INEGI,2017)
+
+
+## II.- PLANTEAMIENTO DEL PROBLEMA 
+
+**2.1 Identificación del problema**
+
+- La participación laboral de la mujer en la economía mexicana ha ido en aumento y, durante el transcurso del tiempo la dinámica y las características sociodemográficas de las mujeres que se incorporaban al mercado laboral han ido cambiando.
+
+- Aunque las mujeres participan más activamente en los mercados de trabajo, sus condiciones en el hogar no han mejorado (Calderón, Gáfaro, e Ibáñez, 2011). 
+
+
+
+##
+
+
+ 
+ ![](cuadro1)
+
+
+## II.- PLANTEAMIENTO DEL PROBLEMA 
+
+- En este trabajo se identificará como la mujer, casada o en unión, se incorpora en el mercado laboral y como depende esta incorporación de su nivel educativo, así como el impacto que tiene en la toma de decisiones y en la violencia del hogar.
+
+## II.- PLANTEAMIENTO DEL PROBLEMA 
+
+**2.2 Delimitación del problema**
+
+El análisis se llevará a cabo a nivel nacional para el caso México en el periodo que comprende de 2003 a 2016. 
+
+
+## II.- PLANTEAMIENTO DEL PROBLEMA 
+
+**2.3 Preguntas de investigación** 
+
+- ¿Cómo impacta la participación laboral de la mujer a los niveles de violencia en el hogar? 
+
+- ¿Cómo impacta el nivel de educación y la participación en el mercado laboral de la mujer en la dinámica de la toma decisiones en el hogar?
+
+- ¿Cómo impacta el nivel de educación de la mujer en sus decisiones de participación y oferta laboral?
+
+
+## II.- PLANTEAMIENTO DEL PROBLEMA 
+
+**2.4 Objetivos de la investigación**
+
+### Objetivo general 
+- Analizar el impacto de la participación laboral de la mujer en la violencia en el hogar en México de 2003 a 2016. 
+
+### Objetivos particulares
+- Analizar la dinámica de la toma de decisiones en el hogar cuando la mujer se incorpora en el mercado laboral en México de 2003 a 2016.
+- Analizar la relación entre el nivel educativo de la mujer y su participación en el mercado laboral en México de 2003 a 2016.
+
+## II.- PLANTEAMIENTO DEL PROBLEMA
+
+**2.5 Justificación**
+
+Tiene relevancia en el ambito social y económico, se pretende aportar a la literatura empirica acerca de oferta laboral y violencia domestica. 
+
+La información se obtendra de la ENDIREH (2003,2006,2011 y 2016)
+
+## III.- MARCO TEÓRICO 
+
+**3.1.- “Estado de la cuestión” **
+
+- Anderson y Dimón (1998) y Castro, Garcia y Badillo (2011) encontraron en México que los factores que más afectan la participación de las mujeres casadas en el sector formal son similares -edad, educación, número de hijos pequeños en el hogar, salario potencial y salario del marido.
+
+- Para el caso de Hong Kong, Pong (1991) encontró que el ingreso familiar habría sido desigual de no ser por 	el aumento de la oferta de mano de obra de mujeres en el tiempo.
+
+## III.- MARCO TEÓRICO
+
+**3.1.- “Estado de la cuestión” **
+
+- Calderón et al.(2011) estudiaron el desplazamiento forzoso, a causa de las guerrillas, de zonas rurales a zonas urbanas donde la fuerza de trabajo laboral femenina se demanda más, traduciendo esto como una incremento por parte de la mujer en el mercado laboral
+
+- Angelucci (2008) en un caso para México realizo una evaluación del programa de oportunidades para estudiar los determinantes de violencia doméstica y abuso del alcohol. 
+
+## III.- MARCO TEÓRICO
+
+**3.2 Enfoque teórico de la propuesta**
+
+- Teoría de la economía del bienestar: 
+
+- Para Pollak (1985), el problema al que se enfrenta una mujer casada consiste en maximizar el valor esperado de su corriente de utilidades futuras sujeta a una restricción presupuestaria familiar. 
+
+- García y Oliveira (1994), la vida de las jefas de familia se caracteriza por la inestabilidad, la inestabilidad en muchos sentidos y una de ellas económica, esta situación las hace optar por trabajar, conviviendo en muchas ocaciones con la violencia ejercida de los hombres hacia las mujeres manifestandose de deiferentes maneras. 
+
+## IV.- HIPÓTESIS 
+
+- La participación laboral de la mujer en actividades que implican que las transferencias de dinero o las inversiones en capital que reciba como beneficio sean mayor a las del cónyuge tendrá una relación positiva en los niveles de violencia. En caso de que las transferencias de dinero sean menores a las que recibe el cónyuge la relación con los niveles de violencia será negativa.
+
+- La decisión de oferta laboral de la mujer se relaciona de forma positiva con su nivel de educación y la optimización de su salario a lo largo del ciclo de vida. 
+
+
+## V.- ESTRATEGIA METODOLÓGICA 
+
+- Modelo Probit.
+
+- Modelo Poisson inflado en 0. (depender de los tipos de violencia domestica)
+
